@@ -47,9 +47,6 @@ jobs:
       - run:
           name: Run npm audit
           command: npm run security
-      - run:
-          name: Validate Commit Messages
-          command: npm run ci:lint:commits
 workflows:
   version: 2
   validate:
