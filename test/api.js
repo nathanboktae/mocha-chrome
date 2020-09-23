@@ -65,12 +65,6 @@ describe('MochaChrome', () => {
       expect(failures).to.equal(1);
     }));
 
-  it('allows runner modification', () =>
-    test({ file: 'runner-mod' }).then(({ passes, failures }) => {
-      expect(passes).to.equal(1);
-      expect(failures).to.equal(1);
-    }));
-
   it('supports different reporters', () =>
     test({
       file: 'reporter',
