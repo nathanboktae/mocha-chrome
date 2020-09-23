@@ -30,14 +30,14 @@
   ],
   "dependencies": {
     "chalk": "^2.0.1",
-    "chrome-launcher": "^0.11.2",
+    "chrome-launcher": "^0.13.4",
     "chrome-remote-interface": "^0.28.0",
     "chrome-unmirror": "^0.1.0",
     "debug": "^4.1.1",
     "deep-assign": "^3.0.0",
     "import-local": "^2.0.0",
     "loglevel": "^1.4.1",
-    "meow": "^5.0.0",
+    "meow": "^6.1.1",
     "nanobus": "^4.2.0"
   },
   "devDependencies": {
