@@ -2,7 +2,7 @@ version: 2
 jobs:
   dependency_cache:
     docker:
-      - image: circleci/node:8.16.1-browsers
+      - image: circleci/node:10.19.0-browsers
     steps:
       - checkout
       - restore_cache:
@@ -16,7 +16,7 @@ jobs:
             - ./node_modules
   node-v10-latest:
     docker:
-      - image: circleci/node:8.16.1-browsers
+      - image: circleci/node:10.19.0-browsers
     steps:
       - checkout
       - restore_cache:
@@ -33,7 +33,7 @@ jobs:
           when: on_success
   analysis:
     docker:
-      - image: circleci/node:8.16.1-browsers
+      - image: circleci/node:10.19.0-browsers
     steps:
       - checkout
       - restore_cache:

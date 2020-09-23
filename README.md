@@ -1,12 +1,11 @@
-[tests]: 	https://img.shields.io/circleci/project/github/shellscape/mocha-chrome.svg
-[tests-url]: https://circleci.com/gh/shellscape/mocha-chrome
+[tests]: 	https://img.shields.io/circleci/project/github/nathanboktae/mocha-chrome.svg
+[tests-url]: https://circleci.com/gh/nathanboktae/mocha-chrome
 
 [size]: https://packagephobia.now.sh/badge?p=mocha-chrome
 [size-url]: https://packagephobia.now.sh/result?p=mocha-chrome
 
 [![tests][tests]][tests-url]
 [![size][size]][size-url]
-[![libera manifesto](https://img.shields.io/badge/libera-manifesto-lightgrey.svg)](https://liberamanifesto.com)
 
 # mocha-chrome
 
@@ -14,7 +13,7 @@
 
 ## Requirements
 
-`mocha-chrome` requires Node v8.0.0 or higher.
+`mocha-chrome` requires Node v10 or higher.
 
 `mocha-chrome` is a development tool, which means you can use tools like [NVM](https://github.com/creationix/nvm) and [nodenv](https://github.com/nodenv/nodenv) to manage your installed versions, and temporarily switch to v8+ to run tests on your machine. Most modern CI environments also support specifying the version of Node to run.
 
